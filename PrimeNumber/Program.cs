@@ -18,7 +18,7 @@ namespace PrimeNumber
             string SmallNumber = Console.ReadLine();
             int FirstNumber;
             int.TryParse(SmallNumber, out FirstNumber);
-            //Console.WriteLine(FirstNumber);
+            Console.WriteLine(FirstNumber);
 
          
 
