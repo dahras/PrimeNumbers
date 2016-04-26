@@ -1,0 +1,10 @@
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.config
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.csprojResolveAssemblyReference.cache
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.pdb
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.pdb
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.exe.manifest
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Debug\PrimeNumber.application
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.exe.manifest
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Debug\PrimeNumber.application

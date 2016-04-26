@@ -1,0 +1,3 @@
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\bin\Release\PrimeNumber.exe.config
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Release\PrimeNumber.exe
+E:\Learn\MyPrograms\PrimeNumber\PrimeNumber\obj\Release\PrimeNumber.pdb

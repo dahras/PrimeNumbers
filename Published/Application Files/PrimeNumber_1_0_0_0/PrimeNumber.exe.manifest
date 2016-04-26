@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrimeNumber.exe" version="1.0.0.0" publicKeyToken="bcadefcca4551079" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrimeNumber" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrimeNumber.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrimeNumber.exe" size="6104">
+      <assemblyIdentity name="PrimeNumber" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>25doeVzunyW65og0vnSimMt2EH/eF3SY9oCty9VWgXQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PrimeNumber.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NAGARRO\devender2193" issuerKeyHash="418f019d968a9302249558265c7959266b8e9dc4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>94vYEXt6P4+QagxiUfUw8M+tZbNsfdi19nmI9xKdbtw=</DigestValue></Reference></SignedInfo><SignatureValue>HdR2vjjY4/DQR/dqKnxmdgz12MaGqb16LAGeWyhMyNNuCe9vbhxoM2lSyH5ghE8nt/BbnnfNKJ53TSW/C9ortE/NH8BnqgtPq1WowiDME+1cd4yQDsrCuEwpAwzrOvNDcvzA/9umLUOGls76gJNCzwiIdJnJc6p51Ra/ohXTiqs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>43bqHM22kuF+mhLGS3juQcfWQRGe2zpGrMEsZWcCECe1XbUmxbjuSdze1IfElO4RqRtZMOSWzA5LkA9yl+Rk/VhQkFVv7G4U5xqOGqyM8ci3YWganrMqxu5DmwZpqrVPbBlM49VqkBVQmBqhjz2Sb/tPM84pjO0KyIBZDpvjkyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dc6e9d12f78879f6b5d87d6cb365adcff030f551620c6a908f3f7a7b11d88bf7" Description="" Url=""><as:assemblyIdentity name="PrimeNumber.exe" version="1.0.0.0" publicKeyToken="bcadefcca4551079" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NAGARRO\devender2193</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4l4LTYFPdYe4i+YLHnuzYwfA7xaLwBJro6pvPT1e9WQ=</DigestValue></Reference></SignedInfo><SignatureValue>ejKaySAoMfz6hvtC1i6HB9eAF0BlODxynH1LhtdN2yx4T8BJXH1H0i1tLRT5myLTKD+65Rrc7dHhncbKCbg0JuEU89HYXTSm0BN4RhOWtm3SGXnRjHtvJnE55a5QlD498rb/JG1YYHzjuJDJUd49zrInDgkFdxfwBGKzxvTBaDM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>43bqHM22kuF+mhLGS3juQcfWQRGe2zpGrMEsZWcCECe1XbUmxbjuSdze1IfElO4RqRtZMOSWzA5LkA9yl+Rk/VhQkFVv7G4U5xqOGqyM8ci3YWganrMqxu5DmwZpqrVPbBlM49VqkBVQmBqhjz2Sb/tPM84pjO0KyIBZDpvjkyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQb4gM6UhRrYJCbMGRR/ExWjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATgBBAEcAQQBSAFIATwBcAGQAZQB2AGUAbgBkAGUAcgAyADEAOQAzMB4XDTE2MDQyNjA1Mzc0MVoXDTE3MDQyNjExMzc0MVowMzExMC8GA1UEAx4oAE4AQQBHAEEAUgBSAE8AXABkAGUAdgBlAG4AZABlAHIAMgAxADkAMzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA43bqHM22kuF+mhLGS3juQcfWQRGe2zpGrMEsZWcCECe1XbUmxbjuSdze1IfElO4RqRtZMOSWzA5LkA9yl+Rk/VhQkFVv7G4U5xqOGqyM8ci3YWganrMqxu5DmwZpqrVPbBlM49VqkBVQmBqhjz2Sb/tPM84pjO0KyIBZDpvjkyECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAr/Tpp29pQj5xiG/fiJlPfqKYuNViQzNnlP3FtI7voCCMHdH3c+vhuGwvNNqi9BE+yUD+NBRYaQ7wGxvr7T1QO0TKyhKiic+e3bBWy6qy09/IeuLmntAqTdzjiHBBpfPmEFmB3aPDiVdOXbKvKwqqRGymdgGaBO8Z3Aze8cEA5RA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
